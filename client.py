@@ -1,4 +1,5 @@
 import socket
+#exemplo fornecido pelo tutorial disponivel nos slides da atividade
 def client(host = 'localhost', port=8082): 
     # Create a TCP/IP socket 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 

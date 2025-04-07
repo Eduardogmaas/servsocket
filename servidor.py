@@ -1,7 +1,7 @@
 import socket 
-
+#exemplo fornecido pelo tutorial disponivel nos slides da atividade
 def server (host ='localhost', port=42000):
-    data_payload = 1024 #Tamanho máximo da mensagem 1024 b
+    data_payload = 1024 #Tamanho máximo da mensagem 1024 bytes
     # Criação do TCP socket
     sock = socket.socket(socket.AF_INET,  socket.SOCK_STREAM)
     # Habilita reutilização de endereço e porta address/port 
